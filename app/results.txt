@@ -1,0 +1,407 @@
+/keras_nlp_fun/venv/bin/python /keras_nlp_fun/app/main.py
+Hello from /keras_nlp_fun/app
+Found 25000 files belonging to 2 classes.
+Found 25000 files belonging to 2 classes.
+(<tf.Tensor: shape=(), dtype=string, numpy=b"To some, this Biblical film is a story of judgment and condemnation... Others see it as a story of grace, restoration, and hope... It is actually both \xc2\x96 Henry King illustrates the portrait of a mighty monarch almost destroyed by his passion, his downward spiral of sin, and his upward climb of healing..<br /><br />'David and Bathsheba' is an emotional movie full of vividly memorable characters who attain mythic status while retaining their humanity... Henry King handles the powerful story, taken from the Old Testament, with skill...<br /><br />David, 'the lion of Judah,' having stormed the walls of Rabgah, saves the life of one of his faithful warriors Uriah (Kieron Moore), and returns to Jerusalem... <br /><br />Back at his court, his first wife complains of neglect, and offends him for being a shepherd's son, distinguishing herself for being the daughter of King Saul...<br /><br />One evening, and while walking on the terrace of his palace which evidently held a commanding view of the neighborhood, David's eyes happened to alight upon a young lady who was taking a refreshing bath... She was beautiful and attractive... David could not take his eyes off her... He finds out later on that she was the wife of one of his officers... <br /><br />Sending for her, he discovers that she, too, is unhappy in her marriage... By this point, it's apparent that David's intentions shift from an interest in taking Bathsheba as a wife, to just plain taking Bathsheba... As usual, sin had its consequences, and David hadn't planned on that possibility...<br /><br />When a drought sweeps the land and there is a threat of famine, David suspects that the Lord is punishing him and his people for his sin... But when Bathsheba tells him that she is pregnant and fears that she may be stoned to death according to the law of Moses, David tries to cover up his sin... <br /><br />He sends word to Joab, the commander of his army, and ordered him to send to him Bathsheba's husband... David did something that was abominable in God's sight... He sends the man to the front line where he would be killed... <br /><br />The soldier is indeed killed and with him out of the way, David marries his beloved Bathsheba in full regal splendor...<br /><br />God punishes the couple when Bathsheba's child dies soon after birth... Meanwhile, a mighty famine has spread throughout the land and the Israelites - led by Nathan - blame the King for their plight... They storm the palace and demand that Bathsheba pays for her sin...<br /><br />Peck plays the compassionate king whose lustful desire outweighed his good sense and integrity.. <br /><br />Hayward as Bathsheba, is a sensitive woman who begins to believe that every disaster occurring in her life is the direct result of her adultery... The sequence of her bath which could have been a great moment in Biblical film history, is badly mishandled, and the viewers eyes are led briefly to Hayward's face and shoulders...<br /><br />Raymond Massey appeared as Nathan the Prophet, sent by God to rebuke David after his adultery with Bathsheba; Gwyneth Verdon is Queen Michal who tries to resist the ambition and greed that have become integral to David's personality and kingship; ex-silent screen idol, Francis X. Bushman, had a brief part as King Saul... <br /><br />The best moments of the film were: The Ark en route to its permanent home when God breaks a young soldier who tries to touch the sacred object; the defining moment in David's life when he confesses his sin and is prepared to accept his punishment of death; and for the film's climax, inserting it as a flashback, David remembering his fight with the giant Goliath... <br /><br />With superb color photography and a masterly music score, 'David and Bathsheba' won Oscar nominations in the following categories: Music Scoring, Art and Set Direction, Cinematography, Story and Screenplay, and Costume Design..">, <tf.Tensor: shape=(), dtype=int32, numpy=1>)
+(<tf.Tensor: shape=(), dtype=string, numpy=b"I walked into a book store in Brentwood, Tennessee. I am not going to say the name because I am a dedicated customer. I have been satisfied with every item I purchased there before this one. On display in the front of the store was The Bell Witch Haunting. (Might I mention this is the only store I have seen it for sale in.) I had heard about the story somewhere and remembered it was supposed to have really happened for real. I was very excited and couldn't wait to watch it. I had great expectations for it. I couldn't believe what I seen when I viewed it. It didn't look like a real movie. It looked like a home video. I was under the impression it was suppose to be a horror movie. I mean the movie was suppose to be about a witch haunting you know. This is no horror movie. You will not jump out of your seat watching this movie. I gave the movie all the chances in the world to get better as it went along. I swear I did. It never did get any better. There were several scenes of this little kid getting poop and pee thrown on him. I didn't find that entertaining at all. I watched the whole movie with disbelief that the store would actually sell this to me. I guess that is how bad this economy has got. I have this to say to the cast and crew. Do not show this film as material to get other film jobs. Don't do it. I mean that sincerely. I commend you for trying. For people who have bought this. I say this. Don't sell your copy to someone. They could get very upset. Have a nice day everyone.">, <tf.Tensor: shape=(), dtype=int32, numpy=0>)
+Beginner: 0.0
+1563/1563 ━━━━━━━━━━━━━━━━━━━━ 621s 396ms/step - loss: 0.5218 - sparse_categorical_accuracy: 0.7325 - val_loss: 0.3023 - val_sparse_categorical_accuracy: 0.8728
+Intermediate: 9.5367431640625e-07
+({'token_ids': <tf.Tensor: shape=(64,), dtype=int32, numpy=
+array([  101,  1045,  2572, 10060,  2023,  2004,  1037,  1000, 27594,
+        2121,  1000,  2069,  2138,  1997,  2070,  1997,  2026,  7928,
+        1997,  1996,  2265,  1005,  1055,  4180,  1010,  2025,  2000,
+        1996,  4180,  2993,  1012,  1026,  7987,  1013,  1028,  1026,
+        7987,  1013,  1028,  2004,  1045,  3191,  1996,  7928,  2009,
+        2003,  6835,  2008,  2216, 10643,  5064, 19242,  1996,  2265,
+        1010,  2021, 25134,  2009,  1010,  2096,  1996,  8037,  3849,
+         102], dtype=int32)>, 'padding_mask': <tf.Tensor: shape=(64,), dtype=bool, numpy=
+array([ True,  True,  True,  True,  True,  True,  True,  True,  True,
+        True,  True,  True,  True,  True,  True,  True,  True,  True,
+        True,  True,  True,  True,  True,  True,  True,  True,  True,
+        True,  True,  True,  True,  True,  True,  True,  True,  True,
+        True,  True,  True,  True,  True,  True,  True,  True,  True,
+        True,  True,  True,  True,  True,  True,  True,  True,  True,
+        True,  True,  True,  True,  True,  True,  True,  True,  True,
+        True])>, 'segment_ids': <tf.Tensor: shape=(64,), dtype=int32, numpy=
+array([0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0,
+       0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0,
+       0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0],
+      dtype=int32)>}, <tf.Tensor: shape=(), dtype=int32, numpy=0>)
+({'token_ids': <tf.Tensor: shape=(64,), dtype=int32, numpy=
+array([  101,  1045,  2626,  2023,  2004,  1037,  2048,  2112,  3319,
+        1012,  2112,  2048,  2038, 27594,  2545,  1012,  1026,  7987,
+        1013,  1028,  1026,  7987,  1013,  1028,  2112,  1015,  1024,
+        1026,  7987,  1013,  1028,  1026,  7987,  1013,  1028,  2053,
+        1010,  2023,  3475,  1005,  1056,  2008,  2028,  2055,  1996,
+        3348,  2007,  2482, 13436,  1012,  2023,  2003,  1996,  2028,
+        2055, 14398,  1999,  1048,  1012,  1037,  1012,  2017,  2113,
+         102], dtype=int32)>, 'padding_mask': <tf.Tensor: shape=(64,), dtype=bool, numpy=
+array([ True,  True,  True,  True,  True,  True,  True,  True,  True,
+        True,  True,  True,  True,  True,  True,  True,  True,  True,
+        True,  True,  True,  True,  True,  True,  True,  True,  True,
+        True,  True,  True,  True,  True,  True,  True,  True,  True,
+        True,  True,  True,  True,  True,  True,  True,  True,  True,
+        True,  True,  True,  True,  True,  True,  True,  True,  True,
+        True,  True,  True,  True,  True,  True,  True,  True,  True,
+        True])>, 'segment_ids': <tf.Tensor: shape=(64,), dtype=int32, numpy=
+array([0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0,
+       0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0,
+       0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0],
+      dtype=int32)>}, <tf.Tensor: shape=(), dtype=int32, numpy=0>)
+Model: "bert_text_classifier_2"
+┏━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━┳━━━━━━━━━━━━━━━━━━━━━━━━━━━┳━━━━━━━━━━━━━━━━━┳━
+┃ Layer (type)                  ┃ Output Shape              ┃         Param # ┃
+┡━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━╇━━━━━━━━━━━━━━━━━━━━━━━━━━━╇━━━━━━━━━━━━━━━━━╇━
+│ padding_mask (InputLayer)     │ (None, None)              │               0 │
+├───────────────────────────────┼───────────────────────────┼─────────────────┼─
+│ segment_ids (InputLayer)      │ (None, None)              │               0 │
+├───────────────────────────────┼───────────────────────────┼─────────────────┼─
+│ token_ids (InputLayer)        │ (None, None)              │               0 │
+├───────────────────────────────┼───────────────────────────┼─────────────────┼─
+│ bert_backbone (BertBackbone)  │ [(None, 128), (None,      │       4,385,920 │
+│                               │ None, 128)]               │                 │
+│                               │                           │                 │
+├───────────────────────────────┼───────────────────────────┼─────────────────┼─
+│ classifier_dropout (Dropout)  │ (None, 128)               │               0 │
+├───────────────────────────────┼───────────────────────────┼─────────────────┼─
+│ logits (Dense)                │ (None, 2)                 │             258 │
+└───────────────────────────────┴───────────────────────────┴─────────────────┴─
+ Total params: 4,386,178 (16.73 MB)
+ Trainable params: 4,386,178 (16.73 MB)
+ Non-trainable params: 0 (0.00 B)
+1563/1563 ━━━━━━━━━━━━━━━━━━━━ 93s 58ms/step - loss: 0.6192 - sparse_categorical_accuracy: 0.6302 - val_loss: 0.4882 - val_sparse_categorical_accuracy: 0.7626
+Advanced Standard: 0.0
+({'token_ids': <tf.Tensor: shape=(64,), dtype=int32, numpy=
+array([  101,  3424, 24669,  4212,  2157,  2046,  2008,  4696,  1997,
+        3152,  2008,  2004, 20781,  2000,  2191,  2070,  2307,  2391,
+        2096,  2108,  2039, 26644,  2664,  4212,  3294,  4257,  1012,
+        1045,  2123,  1005,  1056,  5223,  1996,  2143,  1010,  2021,
+        2009,  2003,  4394,  3145,  3787,  1010,  2107,  2004, 23873,
+        1012,  2045,  2031,  2042,  2060,  4740,  2000,  2191,  2019,
+       11973,  2143,  2055,  7588,  1010,  2107,  2004, 23307,  2015,
+         102], dtype=int32)>, 'segment_ids': <tf.Tensor: shape=(64,), dtype=int32, numpy=
+array([0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0,
+       0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0,
+       0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0],
+      dtype=int32)>, 'padding_mask': <tf.Tensor: shape=(64,), dtype=bool, numpy=
+array([ True,  True,  True,  True,  True,  True,  True,  True,  True,
+        True,  True,  True,  True,  True,  True,  True,  True,  True,
+        True,  True,  True,  True,  True,  True,  True,  True,  True,
+        True,  True,  True,  True,  True,  True,  True,  True,  True,
+        True,  True,  True,  True,  True,  True,  True,  True,  True,
+        True,  True,  True,  True,  True,  True,  True,  True,  True,
+        True,  True,  True,  True,  True,  True,  True,  True,  True,
+        True])>}, <tf.Tensor: shape=(), dtype=int32, numpy=0>)
+2024-09-27 14:40:26.708742: W tensorflow/core/kernels/data/cache_dataset_ops.cc:913] The calling iterator did not fully read the dataset being cached. In order to avoid unexpected truncation of the dataset, the partially cached contents of the dataset  will be discarded. This can happen if you have an input pipeline similar to `dataset.cache().take(k).repeat()`. You should use `dataset.take(k).cache().repeat()` instead.
+({'token_ids': <tf.Tensor: shape=(64,), dtype=int32, numpy=
+array([  101,  2005,  2216,  2040,  3866,  1000,  6159,  1005,  1055,
+        2088,  1000,  1012,  1012,  1012,  1000,  1996,  5132,  3428,
+        1000,  1012,  1012,  1012,  1998,  3109,  1010,  2130,  1000,
+       10642,  1997,  1996,  2439, 15745,  1010,  1000,  2017,  2097,
+        2424,  2172,  2000,  2066,  1006,  2021,  2763,  2025,  2293,
+        1007,  1999,  1000,  2702, 20113,  1040,  1024,  1996,  4060,
+        1997, 10461,  1010,  1000,  1037,  7214,  8680,  2055,  1996,
+         102], dtype=int32)>, 'segment_ids': <tf.Tensor: shape=(64,), dtype=int32, numpy=
+array([0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0,
+       0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0,
+       0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0],
+      dtype=int32)>, 'padding_mask': <tf.Tensor: shape=(64,), dtype=bool, numpy=
+array([ True,  True,  True,  True,  True,  True,  True,  True,  True,
+        True,  True,  True,  True,  True,  True,  True,  True,  True,
+        True,  True,  True,  True,  True,  True,  True,  True,  True,
+        True,  True,  True,  True,  True,  True,  True,  True,  True,
+        True,  True,  True,  True,  True,  True,  True,  True,  True,
+        True,  True,  True,  True,  True,  True,  True,  True,  True,
+        True,  True,  True,  True,  True,  True,  True,  True,  True,
+        True])>}, <tf.Tensor: shape=(), dtype=int32, numpy=1>)
+2024-09-27 14:40:26.795577: W tensorflow/core/kernels/data/cache_dataset_ops.cc:913] The calling iterator did not fully read the dataset being cached. In order to avoid unexpected truncation of the dataset, the partially cached contents of the dataset  will be discarded. This can happen if you have an input pipeline similar to `dataset.cache().take(k).repeat()`. You should use `dataset.take(k).cache().repeat()` instead.
+Model: "functional"
+┏━━━━━━━━━━━━━━━━━━━━━┳━━━━━━━━━━━━━━━━━━━┳━━━━━━━━━━━━┳━━━━━━━━━━━━━━━━━━━┓
+┃ Layer (type)        ┃ Output Shape      ┃    Param # ┃ Connected to      ┃
+┡━━━━━━━━━━━━━━━━━━━━━╇━━━━━━━━━━━━━━━━━━━╇━━━━━━━━━━━━╇━━━━━━━━━━━━━━━━━━━┩
+│ padding_mask        │ (None, None)      │          0 │ -                 │
+│ (InputLayer)        │                   │            │                   │
+├─────────────────────┼───────────────────┼────────────┼───────────────────┤
+│ segment_ids         │ (None, None)      │          0 │ -                 │
+│ (InputLayer)        │                   │            │                   │
+├─────────────────────┼───────────────────┼────────────┼───────────────────┤
+│ token_ids           │ (None, None)      │          0 │ -                 │
+│ (InputLayer)        │                   │            │                   │
+├─────────────────────┼───────────────────┼────────────┼───────────────────┤
+│ bert_backbone       │ [(None, 128),     │  4,385,920 │ padding_mask[0][… │
+│ (BertBackbone)      │ (None, None,      │            │ segment_ids[0][0… │
+│                     │ 128)]             │            │ token_ids[0][0]   │
+├─────────────────────┼───────────────────┼────────────┼───────────────────┤
+│ transformer_encoder │ (None, None, 128) │     83,136 │ bert_backbone[0]… │
+│ (TransformerEncode… │                   │            │                   │
+├─────────────────────┼───────────────────┼────────────┼───────────────────┤
+│ transformer_encode… │ (None, None, 128) │     83,136 │ transformer_enco… │
+│ (TransformerEncode… │                   │            │                   │
+├─────────────────────┼───────────────────┼────────────┼───────────────────┤
+│ get_item_4          │ (None, 128)       │          0 │ transformer_enco… │
+│ (GetItem)           │                   │            │                   │
+├─────────────────────┼───────────────────┼────────────┼───────────────────┤
+│ dense (Dense)       │ (None, 2)         │        258 │ get_item_4[0][0]  │
+└─────────────────────┴───────────────────┴────────────┴───────────────────┘
+ Total params: 4,552,450 (17.37 MB)
+ Trainable params: 166,530 (650.51 KB)
+ Non-trainable params: 4,385,920 (16.73 MB)
+WARNING: All log messages before absl::InitializeLog() is called are written to STDERR
+I0000 00:00:1727473229.048154 9563237 service.cc:146] XLA service 0x6000004f7500 initialized for platform Host (this does not guarantee that XLA will be used). Devices:
+I0000 00:00:1727473229.048385 9563237 service.cc:154]   StreamExecutor device (0): Host, Default Version
+2024-09-27 14:40:29.146480: I tensorflow/compiler/mlir/tensorflow/utils/dump_mlir_util.cc:268] disabling MLIR crash reproducer, set env var `MLIR_CRASH_REPRODUCER_DIRECTORY` to enable.
+I0000 00:00:1727473233.295575 9563237 device_compiler.h:188] Compiled cluster using XLA!  This line is logged at most once for the lifetime of the process.
+1563/1563 ━━━━━━━━━━━━━━━━━━━━ 71s 41ms/step - loss: 0.7295 - sparse_categorical_accuracy: 0.5633 - val_loss: 0.6074 - val_sparse_categorical_accuracy: 0.6716
+Advanced Custom: 9.5367431640625e-07
+({'token_ids': <tf.Tensor: shape=(64,), dtype=int32, numpy=
+array([  101,  2023,   103,  2288,  2125,  2000,  2019,   103,  2707,
+        1012,  2091,  1996,  2346,   103,  1010,  1996,  2466,   103,
+        9530,   103,  7630,  3064,  2007,  1037,  3532, 14614,  1997,
+         103,  2304,   103,   103,   103,   103,  3287,  2599,  2001,
+        2200,  2204,   103,  2130,  2295,  2002,  4152,  1996,  5409,
+         103,  1997,  1996,  9985,  1999,  1996, 14463,   103,  1999,
+        7831,  1010,  2023,  2003,  1000,  8797, 23169,   103,   103,
+         102], dtype=int32)>, 'segment_ids': <tf.Tensor: shape=(64,), dtype=int32, numpy=
+array([0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0,
+       0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0,
+       0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0],
+      dtype=int32)>, 'padding_mask': <tf.Tensor: shape=(64,), dtype=bool, numpy=
+array([ True,  True,  True,  True,  True,  True,  True,  True,  True,
+        True,  True,  True,  True,  True,  True,  True,  True,  True,
+        True,  True,  True,  True,  True,  True,  True,  True,  True,
+        True,  True,  True,  True,  True,  True,  True,  True,  True,
+        True,  True,  True,  True,  True,  True,  True,  True,  True,
+        True,  True,  True,  True,  True,  True,  True,  True,  True,
+        True,  True,  True,  True,  True,  True,  True,  True,  True,
+        True])>, 'mask_positions': <tf.Tensor: shape=(64,), dtype=int64, numpy=
+array([ 2,  7, 13, 17, 19, 27, 29, 30, 31, 32, 38, 45, 48, 52, 61, 62,  0,
+        0,  0,  0,  0,  0,  0,  0,  0,  0,  0,  0,  0,  0,  0,  0,  0,  0,
+        0,  0,  0,  0,  0,  0,  0,  0,  0,  0,  0,  0,  0,  0,  0,  0,  0,
+        0,  0,  0,  0,  0,  0,  0,  0,  0,  0,  0,  0,  0])>}, <tf.Tensor: shape=(64,), dtype=int32, numpy=
+array([ 3185,  5875,  2174,  4152,  6767,  3418,  3894, 13549,  1012,
+        1996,  1010,  2203,  6293,  1012,  2290,  1000,     0,     0,
+           0,     0,     0,     0,     0,     0,     0,     0,     0,
+           0,     0,     0,     0,     0,     0,     0,     0,     0,
+           0,     0,     0,     0,     0,     0,     0,     0,     0,
+           0,     0,     0,     0,     0,     0,     0,     0,     0,
+           0,     0,     0,     0,     0,     0,     0,     0,     0,
+           0], dtype=int32)>, <tf.Tensor: shape=(64,), dtype=float16, numpy=
+array([1., 1., 1., 1., 1., 1., 1., 1., 1., 1., 1., 1., 1., 1., 1., 1., 0.,
+       0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0.,
+       0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0.,
+       0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0.], dtype=float16)>)
+({'token_ids': <tf.Tensor: shape=(64,), dtype=int32, numpy=
+array([  101,   103,  2814,  1998,  1045,  2024,  2467,  2006,   103,
+         103,   103,   103, 15466,  3152,  2000,  2074, 24234,   626,
+        2191,  4569,  1997,  1012,  2028,  1997,  2256, 20672,  2061,
+        2521,  2003, 10459, 12155, 10270,   103,  1045,  2253,  2000,
+        1037, 24547,  1011,   103, 14197,  6023,   103,  1045,  2234,
+        2408,  2023,   103,  1999,  1996,  1019,  1012,   103,  8026,
+        1012,  1045,   103,  2000,  2131,  2009,   103,   103,   103,
+         102], dtype=int32)>, 'segment_ids': <tf.Tensor: shape=(64,), dtype=int32, numpy=
+array([0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0,
+       0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0,
+       0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0],
+      dtype=int32)>, 'padding_mask': <tf.Tensor: shape=(64,), dtype=bool, numpy=
+array([ True,  True,  True,  True,  True,  True,  True,  True,  True,
+        True,  True,  True,  True,  True,  True,  True,  True,  True,
+        True,  True,  True,  True,  True,  True,  True,  True,  True,
+        True,  True,  True,  True,  True,  True,  True,  True,  True,
+        True,  True,  True,  True,  True,  True,  True,  True,  True,
+        True,  True,  True,  True,  True,  True,  True,  True,  True,
+        True,  True,  True,  True,  True,  True,  True,  True,  True,
+        True])>, 'mask_positions': <tf.Tensor: shape=(64,), dtype=int64, numpy=
+array([ 1,  8,  9, 10, 11, 17, 32, 39, 40, 42, 47, 52, 56, 60, 61, 62,  0,
+        0,  0,  0,  0,  0,  0,  0,  0,  0,  0,  0,  0,  0,  0,  0,  0,  0,
+        0,  0,  0,  0,  0,  0,  0,  0,  0,  0,  0,  0,  0,  0,  0,  0,  0,
+        0,  0,  0,  0,  0,  0,  0,  0,  0,  0,  0,  0,  0])>}, <tf.Tensor: shape=(64,), dtype=int32, numpy=
+array([ 2026,  1996, 19052,  2005,  8057,  1998,  1012, 20481,  4234,
+        1998,  3185,  5585,  2018,  1012,  1045,  2018,     0,     0,
+           0,     0,     0,     0,     0,     0,     0,     0,     0,
+           0,     0,     0,     0,     0,     0,     0,     0,     0,
+           0,     0,     0,     0,     0,     0,     0,     0,     0,
+           0,     0,     0,     0,     0,     0,     0,     0,     0,
+           0,     0,     0,     0,     0,     0,     0,     0,     0,
+           0], dtype=int32)>, <tf.Tensor: shape=(64,), dtype=float16, numpy=
+array([1., 1., 1., 1., 1., 1., 1., 1., 1., 1., 1., 1., 1., 1., 1., 1., 0.,
+       0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0.,
+       0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0.,
+       0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0.], dtype=float16)>)
+Model: "functional_1"
+┏━━━━━━━━━━━━━━━━━━━━━┳━━━━━━━━━━━━━━━━━━━┳━━━━━━━━━━━━┳━━━━━━━━━━━━━━━━━━━┓
+┃ Layer (type)        ┃ Output Shape      ┃    Param # ┃ Connected to      ┃
+┡━━━━━━━━━━━━━━━━━━━━━╇━━━━━━━━━━━━━━━━━━━╇━━━━━━━━━━━━╇━━━━━━━━━━━━━━━━━━━┩
+│ mask_positions      │ (None, None)      │          0 │ -                 │
+│ (InputLayer)        │                   │            │                   │
+├─────────────────────┼───────────────────┼────────────┼───────────────────┤
+│ padding_mask        │ (None, None)      │          0 │ -                 │
+│ (InputLayer)        │                   │            │                   │
+├─────────────────────┼───────────────────┼────────────┼───────────────────┤
+│ segment_ids         │ (None, None)      │          0 │ -                 │
+│ (InputLayer)        │                   │            │                   │
+├─────────────────────┼───────────────────┼────────────┼───────────────────┤
+│ token_ids           │ (None, None)      │          0 │ -                 │
+│ (InputLayer)        │                   │            │                   │
+├─────────────────────┼───────────────────┼────────────┼───────────────────┤
+│ bert_backbone       │ [(None, 32),      │  1,011,360 │ mask_positions[0… │
+│ (BertBackbone)      │ (None, None, 32)] │            │ padding_mask[0][… │
+│                     │                   │            │ segment_ids[0][0… │
+│                     │                   │            │ token_ids[0][0]   │
+├─────────────────────┼───────────────────┼────────────┼───────────────────┤
+│ masked_lm_head      │ (None, None,      │  1,008,346 │ bert_backbone[0]… │
+│ (MaskedLMHead)      │ 30522)            │            │ mask_positions[0… │
+└─────────────────────┴───────────────────┴────────────┴───────────────────┘
+ Total params: 1,043,002 (3.98 MB)
+ Trainable params: 1,043,002 (3.98 MB)
+ Non-trainable params: 0 (0.00 B)
+/Users/kensmith/Desktop/keras_nlp_fun/venv/lib/python3.11/site-packages/keras/src/optimizers/base_optimizer.py:678: UserWarning: Gradients do not exist for variables ['kernel', 'bias'] when minimizing the loss. If using `model.compile()`, did you forget to provide a `loss` argument?
+  warnings.warn(
+W0000 00:00:1727473301.587300 9563232 assert_op.cc:38] Ignoring Assert operator compile_loss/sparse_categorical_crossentropy/SparseSoftmaxCrossEntropyWithLogits/assert_equal_1/Assert/Assert
+1562/1563 ━━━━━━━━━━━━━━━━━━━━ 0s 137ms/step - loss: nan - sparse_categorical_accuracy: 0.0000e+00W0000 00:00:1727473518.415955 9563235 assert_op.cc:38] Ignoring Assert operator compile_loss/sparse_categorical_crossentropy/SparseSoftmaxCrossEntropyWithLogits/assert_equal_1/Assert/Assert
+1563/1563 ━━━━━━━━━━━━━━━━━━━━ 0s 139ms/step - loss: nan - sparse_categorical_accuracy: 0.0000e+00W0000 00:00:1727473522.451941 9563232 assert_op.cc:38] Ignoring Assert operator compile_loss/sparse_categorical_crossentropy/SparseSoftmaxCrossEntropyWithLogits/assert_equal_1/Assert/Assert
+W0000 00:00:1727473649.925240 9563235 assert_op.cc:38] Ignoring Assert operator compile_loss/sparse_categorical_crossentropy/SparseSoftmaxCrossEntropyWithLogits/assert_equal_1/Assert/Assert
+1563/1563 ━━━━━━━━━━━━━━━━━━━━ 351s 221ms/step - loss: nan - sparse_categorical_accuracy: 0.0000e+00 - val_loss: nan - val_sparse_categorical_accuracy: 0.0000e+00
+Expert Standard: 0.0
+2024-09-27 14:47:31.586727: I tensorflow/core/framework/local_rendezvous.cc:404] Local rendezvous is aborting with status: OUT_OF_RANGE: End of sequence
+(<tf.Tensor: shape=(512,), dtype=int32, numpy=
+array([    1,    52,   314,   107,   113,   111,    23,  1108,    18,
+          18,    52,   133,  4663,  5171,   100,  1473,  8964,    19,
+         571,    17,   227,   437,   435,   165,  1012,   102,  1793,
+          44,   281,  1091,   113,    19,    52,   524,    99,   424,
+         108,  3968,   103,   261,    44, 10498,   101, 14732,   103,
+        4492, 12483,   506,    17,   181,   105,   221,  1376,   121,
+       10199,   111,   125,   280,  1604,    17,   114,   134,   109,
+         131,   169,  1345,   108,   107,   424,   109,   118,  1844,
+         110,   169,   110,   105,   192,   122,   172,    19,    52,
+         161,   107,   113,   147,   110,    44,   189,   111,    99,
+        1121,  4663,  5171,   102,  1090,   121,   785,   139,   257,
+         206,   469,  4213,   100,    44,   189,   111,    99,  2747,
+        1473,  8964,   102,  3251,    99,  1150,    13,   166,   100,
+          99,    26,   176,   173,   130,   314,   107,   115,    14,
+         108,   119,   226,  3186,    19,    52,   261,   607,    99,
+         417,  1036,   117,    99,   377,   147,   168,    99,   113,
+         510,    19,     2,     0,     0,     0,     0,     0,     0,
+           0,     0,     0,     0,     0,     0,     0,     0,     0,
+           0,     0,     0,     0,     0,     0,     0,     0,     0,
+           0,     0,     0,     0,     0,     0,     0,     0,     0,
+           0,     0,     0,     0,     0,     0,     0,     0,     0,
+           0,     0,     0,     0,     0,     0,     0,     0,     0,
+           0,     0,     0,     0,     0,     0,     0,     0,     0,
+           0,     0,     0,     0,     0,     0,     0,     0,     0,
+           0,     0,     0,     0,     0,     0,     0,     0,     0,
+           0,     0,     0,     0,     0,     0,     0,     0,     0,
+           0,     0,     0,     0,     0,     0,     0,     0,     0,
+           0,     0,     0,     0,     0,     0,     0,     0,     0,
+           0,     0,     0,     0,     0,     0,     0,     0,     0,
+           0,     0,     0,     0,     0,     0,     0,     0,     0,
+           0,     0,     0,     0,     0,     0,     0,     0,     0,
+           0,     0,     0,     0,     0,     0,     0,     0,     0,
+           0,     0,     0,     0,     0,     0,     0,     0,     0,
+           0,     0,     0,     0,     0,     0,     0,     0,     0,
+           0,     0,     0,     0,     0,     0,     0,     0,     0,
+           0,     0,     0,     0,     0,     0,     0,     0,     0,
+           0,     0,     0,     0,     0,     0,     0,     0,     0,
+           0,     0,     0,     0,     0,     0,     0,     0,     0,
+           0,     0,     0,     0,     0,     0,     0,     0,     0,
+           0,     0,     0,     0,     0,     0,     0,     0,     0,
+           0,     0,     0,     0,     0,     0,     0,     0,     0,
+           0,     0,     0,     0,     0,     0,     0,     0,     0,
+           0,     0,     0,     0,     0,     0,     0,     0,     0,
+           0,     0,     0,     0,     0,     0,     0,     0,     0,
+           0,     0,     0,     0,     0,     0,     0,     0,     0,
+           0,     0,     0,     0,     0,     0,     0,     0,     0,
+           0,     0,     0,     0,     0,     0,     0,     0,     0,
+           0,     0,     0,     0,     0,     0,     0,     0,     0,
+           0,     0,     0,     0,     0,     0,     0,     0,     0,
+           0,     0,     0,     0,     0,     0,     0,     0,     0,
+           0,     0,     0,     0,     0,     0,     0,     0,     0,
+           0,     0,     0,     0,     0,     0,     0,     0,     0,
+           0,     0,     0,     0,     0,     0,     0,     0,     0,
+           0,     0,     0,     0,     0,     0,     0,     0,     0,
+           0,     0,     0,     0,     0,     0,     0,     0,     0,
+           0,     0,     0,     0,     0,     0,     0,     0,     0,
+           0,     0,     0,     0,     0,     0,     0,     0],
+      dtype=int32)>, <tf.Tensor: shape=(), dtype=int32, numpy=0>)
+(<tf.Tensor: shape=(512,), dtype=int32, numpy=
+array([    1,  7878, 12420,    18,    18,   106,    44,  6340,   132,
+         135,     7,  1186,  2845,     7, 10421,    18,    18,   397,
+          44,  3133,  4589,   342,   130,  3200,  1475,  3212,  9552,
+         388,  8025,   106,    44,     7,   620,   159,     7,  2594,
+         106,  8277, 10314,    19,    99,   543,    31,  7878,   103,
+           7, 14902,  7153,  6689,     7,   100,   117,    99,  3508,
+       11356,    17,   231,   135,   462,   120,   125,   670,    19,
+        3274,    99,   529, 11194,   100,  1018,   238, 16102,   162,
+           7,  9768,     7,  2594,  3110,    19,    33,   104,    20,
+          35,    33,   104,    20,    35,   566,    44,   267,  1015,
+        5268,   128,  2161, 17719,   342,    13,     7,  2377,    12,
+          62,  4543,     7,    14,   100,  5232,     7,   738,  6325,
+           7,  1901,  1101, 11347,   403,   100,   970,    19,  2279,
+       18900,  2686,    17,   107,   103, 11001,   637,   111,   454,
+         159,    19,    47,    19,    45,    19,    62, 15042,  1236,
+        1853,    17,  4916,  7391,   100,  2809, 17236, 10120,  1101,
+          18,   420,    19,     2,     0,     0,     0,     0,     0,
+           0,     0,     0,     0,     0,     0,     0,     0,     0,
+           0,     0,     0,     0,     0,     0,     0,     0,     0,
+           0,     0,     0,     0,     0,     0,     0,     0,     0,
+           0,     0,     0,     0,     0,     0,     0,     0,     0,
+           0,     0,     0,     0,     0,     0,     0,     0,     0,
+           0,     0,     0,     0,     0,     0,     0,     0,     0,
+           0,     0,     0,     0,     0,     0,     0,     0,     0,
+           0,     0,     0,     0,     0,     0,     0,     0,     0,
+           0,     0,     0,     0,     0,     0,     0,     0,     0,
+           0,     0,     0,     0,     0,     0,     0,     0,     0,
+           0,     0,     0,     0,     0,     0,     0,     0,     0,
+           0,     0,     0,     0,     0,     0,     0,     0,     0,
+           0,     0,     0,     0,     0,     0,     0,     0,     0,
+           0,     0,     0,     0,     0,     0,     0,     0,     0,
+           0,     0,     0,     0,     0,     0,     0,     0,     0,
+           0,     0,     0,     0,     0,     0,     0,     0,     0,
+           0,     0,     0,     0,     0,     0,     0,     0,     0,
+           0,     0,     0,     0,     0,     0,     0,     0,     0,
+           0,     0,     0,     0,     0,     0,     0,     0,     0,
+           0,     0,     0,     0,     0,     0,     0,     0,     0,
+           0,     0,     0,     0,     0,     0,     0,     0,     0,
+           0,     0,     0,     0,     0,     0,     0,     0,     0,
+           0,     0,     0,     0,     0,     0,     0,     0,     0,
+           0,     0,     0,     0,     0,     0,     0,     0,     0,
+           0,     0,     0,     0,     0,     0,     0,     0,     0,
+           0,     0,     0,     0,     0,     0,     0,     0,     0,
+           0,     0,     0,     0,     0,     0,     0,     0,     0,
+           0,     0,     0,     0,     0,     0,     0,     0,     0,
+           0,     0,     0,     0,     0,     0,     0,     0,     0,
+           0,     0,     0,     0,     0,     0,     0,     0,     0,
+           0,     0,     0,     0,     0,     0,     0,     0,     0,
+           0,     0,     0,     0,     0,     0,     0,     0,     0,
+           0,     0,     0,     0,     0,     0,     0,     0,     0,
+           0,     0,     0,     0,     0,     0,     0,     0,     0,
+           0,     0,     0,     0,     0,     0,     0,     0,     0,
+           0,     0,     0,     0,     0,     0,     0,     0,     0,
+           0,     0,     0,     0,     0,     0,     0,     0,     0,
+           0,     0,     0,     0,     0,     0,     0,     0,     0,
+           0,     0,     0,     0,     0,     0,     0,     0,     0,
+           0,     0,     0,     0,     0,     0,     0,     0],
+      dtype=int32)>, <tf.Tensor: shape=(), dtype=int32, numpy=0>)
+Model: "functional_2"
+┏━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━┳━━━━━━━━━━━━━━━━━━━━━━━━┳━━━━━━━━━━━━━━━┓
+┃ Layer (type)                    ┃ Output Shape           ┃       Param # ┃
+┡━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━╇━━━━━━━━━━━━━━━━━━━━━━━━╇━━━━━━━━━━━━━━━┩
+│ token_ids (InputLayer)          │ (None, None)           │             0 │
+├─────────────────────────────────┼────────────────────────┼───────────────┤
+│ token_and_position_embedding    │ (None, None, 64)       │     1,260,544 │
+│ (TokenAndPositionEmbedding)     │                        │               │
+├─────────────────────────────────┼────────────────────────┼───────────────┤
+│ transformer_encoder_2           │ (None, None, 64)       │        33,472 │
+│ (TransformerEncoder)            │                        │               │
+├─────────────────────────────────┼────────────────────────┼───────────────┤
+│ get_item_6 (GetItem)            │ (None, 64)             │             0 │
+├─────────────────────────────────┼────────────────────────┼───────────────┤
+│ dense_1 (Dense)                 │ (None, 2)              │           130 │
+└─────────────────────────────────┴────────────────────────┴───────────────┘
+ Total params: 1,294,146 (4.94 MB)
+ Trainable params: 1,294,146 (4.94 MB)
+ Non-trainable params: 0 (0.00 B)
+1563/1563 ━━━━━━━━━━━━━━━━━━━━ 158s 100ms/step - loss: 0.6913 - sparse_categorical_accuracy: 0.5364 - val_loss: 0.5362 - val_sparse_categorical_accuracy: 0.7118
+Expert Custom: 0.0
+
+Process finished with exit code 0

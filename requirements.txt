@@ -1,0 +1,5 @@
+tensorflow
+# tensorflow-metal
+# pip uninstall tensorflow-metal
+keras
+keras-nlp
