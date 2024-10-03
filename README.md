@@ -15,7 +15,7 @@ Learn keras_nlp a bit.
 
     !curl -O https://ai.stanford.edu/~amaas/data/sentiment/aclImdb_v1.tar.gz
     !tar -xf aclImdb_v1.tar.gz
-    !# Remove unsupervised examples
+    !# Remove unsupervised examples, num_classes value will cause an error if unsup is not removed.
     !rm -r aclImdb/train/unsup
 
 # notes
